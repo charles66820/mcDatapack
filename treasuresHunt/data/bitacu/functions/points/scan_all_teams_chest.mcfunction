@@ -1,0 +1,4 @@
+function bitacu:points/scan_yellow_team_chest
+function bitacu:points/scan_red_team_chest
+function bitacu:points/scan_green_team_chest
+function bitacu:points/scan_blue_team_chest
