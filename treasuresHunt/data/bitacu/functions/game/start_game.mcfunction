@@ -1,9 +1,17 @@
+# Init info progress bar
+bossbar add bitacu:info ""
+bossbar set bitacu:info visible false
+bossbar set bitacu:info players @a
+bossbar set bitacu:info style progress
+
+# reste player
 gamemode survival @a
 time set day
 effect give @a minecraft:saturation 2 60
 xp set @a 0 points
 xp set @a 0 levels
 clear @a
+
 function bitacu:teams/rm_sel_team
 function bitacu:timer/reset_timer
 scoreboard objectives setdisplay sidebar Timer
