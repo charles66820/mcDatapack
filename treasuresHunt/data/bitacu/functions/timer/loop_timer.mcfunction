@@ -63,12 +63,12 @@ execute if score Minutes Timer matches 50 if score Seconds Timer matches 0 if sc
 execute if score Minutes Timer matches 50 if score Seconds Timer matches 0 if score ticks timer matches 0 run function bitacu:chests/rand_chest
 
 # game over
-bossbar set bitacu:info color red
-bossbar set bitacu:info max 60
-bossbar set bitacu:info value 60
-bossbar set bitacu:info name "Fin de la partie dans 60 secondes"
-bossbar set bitacu:info visible true
-scoreboard objectives remove Timer
+execute if score Minutes Timer matches 59 if score Seconds Timer matches 0 if score ticks timer matches 0 run bossbar set bitacu:info color red
+execute if score Minutes Timer matches 59 if score Seconds Timer matches 0 if score ticks timer matches 0 run bossbar set bitacu:info max 60
+execute if score Minutes Timer matches 59 if score Seconds Timer matches 0 if score ticks timer matches 0 run bossbar set bitacu:info value 60
+execute if score Minutes Timer matches 59 if score Seconds Timer matches 0 if score ticks timer matches 0 run bossbar set bitacu:info name "Fin de la partie dans 60 secondes"
+execute if score Minutes Timer matches 59 if score Seconds Timer matches 0 if score ticks timer matches 0 run bossbar set bitacu:info visible true
+execute if score Minutes Timer matches 59 if score Seconds Timer matches 0 if score ticks timer matches 0 run scoreboard objectives remove Timer
 
 execute if score Minutes Timer matches 59 if score Seconds Timer matches 1 if score ticks timer matches 0 run bossbar set bitacu:info value 59
 execute if score Minutes Timer matches 59 if score Seconds Timer matches 1 if score ticks timer matches 0 run bossbar set bitacu:info name "Fin de la partie dans 59 secondes"
