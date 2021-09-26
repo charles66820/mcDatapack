@@ -40,4 +40,4 @@ scoreboard players set goldMulti points 50
 scoreboard players set emeraldMulti points 300
 scoreboard players set diamondMulti points 100
 
-say [debug] points initialized!
+execute if score Global debug matches 1 run say [debug] points initialized!

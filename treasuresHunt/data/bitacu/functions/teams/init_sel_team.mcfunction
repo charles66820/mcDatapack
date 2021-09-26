@@ -18,4 +18,4 @@ scoreboard objectives add ready trigger
 # allow loop of team selection
 scoreboard players set selTeam teams 1
 
-say [debug] teams selection initialized!
+execute if score Global debug matches 1 run say [debug] teams selection initialized!

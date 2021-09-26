@@ -2,4 +2,4 @@
 scoreboard objectives remove timer
 scoreboard objectives remove Timer
 
-say [debug] timer uninitialized!
+execute if score Global debug matches 1 run say [debug] timer uninitialized!

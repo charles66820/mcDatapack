@@ -3,4 +3,4 @@ team remove red
 team remove green
 team remove blue
 
-say [debug] teams uninitialized!
+execute if score Global debug matches 1 run say [debug] teams uninitialized!

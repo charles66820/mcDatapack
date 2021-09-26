@@ -14,4 +14,4 @@ team add blue "Bleu"
 team modify blue friendlyFire false
 team modify blue color blue
 
-say [debug] teams initialized!
+execute if score Global debug matches 1 run say [debug] teams initialized!

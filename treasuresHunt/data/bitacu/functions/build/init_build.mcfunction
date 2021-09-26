@@ -23,4 +23,4 @@ execute at @e[type=minecraft:armor_stand,name=origin] run summon minecraft:armor
 execute at @e[type=minecraft:armor_stand,name=origin] run summon minecraft:armor_stand ~8 ~78 ~-1 {NoGravity:1,Invisible:1,NoBasePlate:1,CustomName:"\"green\""}
 execute at @e[type=minecraft:armor_stand,name=origin] run summon minecraft:armor_stand ~-2 ~78 ~-9 {NoGravity:1,Invisible:1,NoBasePlate:1,CustomName:"\"blue\""}
 
-say [debug] build initialized!
+execute if score Global debug matches 1 run say [debug] build initialized!

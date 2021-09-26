@@ -1,3 +1,3 @@
 scoreboard objectives remove points
 
-say [debug] points uninitialized!
+execute if score Global debug matches 1 run say [debug] points uninitialized!

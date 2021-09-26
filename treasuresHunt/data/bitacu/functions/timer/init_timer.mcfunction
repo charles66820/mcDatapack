@@ -10,4 +10,4 @@ scoreboard objectives add Timer dummy
 scoreboard players add Seconds Timer 0
 scoreboard players add Minutes Timer 0
 
-say [debug] timer initialized!
+execute if score Global debug matches 1 run say [debug] timer initialized!

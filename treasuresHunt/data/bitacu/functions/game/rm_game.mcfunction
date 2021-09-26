@@ -7,4 +7,4 @@ function bitacu:chests/rm_chests
 
 function bitacu:build/rm_origin
 
-say [debug] game uninitialized!
+execute if score Global debug matches 1 run say [debug] game uninitialized!
