@@ -1,0 +1,16 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "location": {
+      "position": {
+        "y": {
+          "min": -2048,
+          "max": -20
+        }
+      },
+      "dimension": "minecraft:the_end"
+    }
+  }
+}

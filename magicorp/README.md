@@ -5,5 +5,8 @@
 Start a game
 
 ```lua
-/function bitacu:game/init_game
 ```
+
+## Utile
+
+`https://misode.github.io/predicate/`
