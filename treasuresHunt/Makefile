@@ -1,5 +1,7 @@
+archive = treasuresHunt.zip
+
 all:
-	zip -r treasuresHunt.zip pack.mcmeta data
+	cd src && zip -o ../$(archive) -r * && cd ..
 
 clean:
-	rm -f treasuresHunt.zip
+	rm -f $(archive)
