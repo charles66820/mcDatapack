@@ -1,0 +1,110 @@
+{
+  "generate_features": false,
+  "bonus_chest": false,
+  "seed": -1464245863,
+  "dimensions": {
+    "minecraft:overworld": {
+      "generator": {
+        "type": "minecraft:noise",
+        "seed": -1464245863,
+        "biome_source": {
+          "type": "minecraft:vanilla_layered",
+          "seed": -1464245863,
+          "large_biomes": false
+        },
+        "settings": "minecraft:overworld"
+      },
+      "type": "minecraft:overworld"
+    },
+    "bitacu:toto": {
+      "generator": {
+        "type": "minecraft:noise",
+        "seed": -1464245863,
+        "biome_source": {
+          "type": "minecraft:multi_noise",
+          "seed": -1464245863,
+          "biomes": [
+            {
+              "biome": "minecraft:ice_spikes",
+              "parameters": {
+                "altitude": 0,
+                "weirdness": 0,
+                "offset": 0,
+                "temparature": -1,
+                "humidity": 0
+              }
+            },
+            {
+              "biome": "minecraft:jungle_edge",
+              "parameters": {
+                "altitude": 0,
+                "weirdness": 0,
+                "offset": 0,
+                "temparature": 1,
+                "humidity": 1
+              }
+            }
+          ]
+        },
+        "settings": {
+          "bedrock_roof_position": -10,
+          "bedrock_floor_position": 0,
+          "sea_level": 63,
+          "disable_mob_generation": false,
+          "default_block": {
+            "Name": "minecraft:stone",
+            "Properties": {}
+          },
+          "default_fluid": {
+            "Name": "minecraft:water",
+            "Properties": {}
+          },
+          "noise": {
+            "density_factor": 1,
+            "density_offset": -0.46875,
+            "simplex_surface_noise": true,
+            "random_density_offset": true,
+            "island_noise_override": false,
+            "amplified": false,
+            "size_horizontal": 2,
+            "size_vertical": 2,
+            "height": 256,
+            "sampling": {
+              "xz_scale": 1,
+              "y_scale": 1,
+              "xz_factor": 80,
+              "y_factor": 160
+            },
+            "bottom_slide": {
+              "target": -30,
+              "size": 0,
+              "offset": 0
+            },
+            "top_slide": {
+              "target": -10,
+              "size": 3,
+              "offset": 0
+            }
+          },
+          "structures": {
+            "structures": {
+              "minecraft:toto": {
+                "spacing": 5,
+                "separation": 4,
+                "salt": 34222645
+              }
+            }
+          }
+        }
+      },
+      "type": {
+        "ultrawarm": false,
+        "natural": true,
+        "shrunk": false,
+        "ambient_light": 0,
+        "has_skylight": true,
+        "has_ceiling": false
+      }
+    }
+  }
+}
