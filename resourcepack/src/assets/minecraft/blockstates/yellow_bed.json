@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "facing=north,part=foot": {
+      "model": "bitacu:block/bed", "y": 180
+    },
+    "facing=east,part=foot": {
+      "model": "bitacu:block/bed", "y": 270
+    },
+    "facing=south,part=foot": {
+      "model": "bitacu:block/bed"
+    },
+    "facing=west,part=foot": {
+      "model": "bitacu:block/bed2", "y": 90
+    },
+    "facing=north,part=head": {
+      "model": "bitacu:block/bed", "y": 180
+    },
+    "facing=east,part=head": {
+      "model": "bitacu:block/bed", "y": 270
+    },
+    "facing=south,part=head": {
+      "model": "bitacu:block/bed"
+    },
+    "facing=west,part=head": {
+      "model": "bitacu:block/bed2", "y": 90
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "bitacu:player"
+	},
+	"elements": [
+		{
+			"name": "steve_right_leg",
+			"from": [4, 8, -7.5],
+			"to": [8, 12, 4.5],
+			"faces": {
+				"north": {"uv": [2, 8, 3, 10], "texture": "#2"},
+				"east": {"uv": [2, 10, 3, 15.98], "rotation": 270, "texture": "#2"},
+				"south": {"uv": [2, 10, 1, 8], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [0, 10, 1, 16], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [3, 10, 4, 16], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [1, 10, 2, 16], "texture": "#2"}
+			}
+		},
+		{
+			"name": "steve_left_leg",
+			"from": [8, 8, -7.5],
+			"to": [12, 12, 4.5],
+			"faces": {
+				"north": {"uv": [2, 8, 3, 10], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [1, 10, 0, 16], "rotation": 270, "texture": "#2"},
+				"south": {"uv": [2, 8, 1, 10], "texture": "#2"},
+				"west": {"uv": [3, 10, 2, 15.98], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [3, 16, 4, 10], "texture": "#2"},
+				"down": {"uv": [2, 10, 1, 16], "texture": "#2"}
+			}
+		},
+		{
+			"name": "steve_body",
+			"from": [4, 8, 4.5],
+			"to": [12, 12, 16.5],
+			"faces": {
+				"north": {"uv": [7, 10, 9, 8], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [7, 10, 8, 16], "rotation": 270, "texture": "#2"},
+				"south": {"uv": [5, 8, 7, 10], "texture": "#2"},
+				"west": {"uv": [4, 10, 5, 15.98], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [8, 10, 9.98, 16], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [5, 10, 7, 15.98], "texture": "#2"}
+			}
+		},
+		{
+			"name": "steve_head",
+			"from": [4, 6, 16.5],
+			"to": [12, 14, 24.5],
+			"faces": {
+				"north": {"uv": [4, 4, 6, 0], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [4, 4, 6, 8], "rotation": 270, "texture": "#2"},
+				"south": {"uv": [2, 0, 4, 4], "texture": "#2"},
+				"west": {"uv": [0, 4, 2, 8], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [6, 4, 8, 8], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [2, 4, 4, 8], "texture": "#2"}
+			}
+		},
+		{
+			"name": "steve_right_arm",
+			"from": [0, 8, 4.5],
+			"to": [4, 12, 16.5],
+			"faces": {
+				"north": {"uv": [12, 10, 13, 8], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [12, 10, 13, 16], "rotation": 270, "texture": "#2"},
+				"south": {"uv": [11, 8, 12, 10], "texture": "#2"},
+				"west": {"uv": [11, 10, 10, 16], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [12, 10, 11, 16], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [14, 10, 13, 16], "texture": "#2"}
+			}
+		},
+		{
+			"name": "steve_left_arm",
+			"from": [12, 8, 4.5],
+			"to": [16, 12, 16.5],
+			"faces": {
+				"north": {"uv": [12, 8, 13, 10], "texture": "#2"},
+				"east": {"uv": [10, 10, 11, 16], "rotation": 270, "texture": "#2"},
+				"south": {"uv": [11, 8, 12, 10], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [13, 10, 12, 16], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [11, 10, 12, 16], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [13, 10, 14, 16], "texture": "#2"}
+			}
+		},
+		{
+			"name": "steve_head_2nd_layer",
+			"from": [3.5, 5.5, 16],
+			"to": [12.5, 14.5, 25],
+			"faces": {
+				"east": {"uv": [12, 4, 14, 8], "rotation": 270, "texture": "#2"},
+				"west": {"uv": [8, 4, 10, 8], "rotation": 90, "texture": "#2"},
+				"up": {"uv": [14, 4, 16, 8], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [10, 4, 12, 8], "texture": "#2"}
+			}
+		},
+		{
+			"name": "steve_body_2nd_layer",
+			"from": [4, 7.49, 4.02],
+			"to": [12, 12.49, 17.03],
+			"color": 3,
+			"faces": {}
+		},
+		{
+			"name": "steve_right_arm_2nd_layer",
+			"from": [-0.5, 7.5, 4],
+			"to": [4.49, 12.5, 17],
+			"color": 7,
+			"faces": {}
+		},
+		{
+			"name": "steve_left_arm_2nd_layer",
+			"from": [11.5, 7.5, 4],
+			"to": [16.5, 12.5, 17],
+			"color": 4,
+			"faces": {}
+		},
+		{
+			"name": "steve_right_leg_2nd_layer",
+			"from": [3.5, 7.5, -8],
+			"to": [8.5, 12.5, 5],
+			"color": 5,
+			"faces": {}
+		},
+		{
+			"name": "steve_left_leg_2nd_layer",
+			"from": [7.5, 7.5, -8],
+			"to": [12.5, 12.5, 5],
+			"color": 0,
+			"faces": {}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0],
+			"translation": [0, -30, 0],
+			"scale": [1.6, 1.6, 1.6]
+		}
+	}
+}
