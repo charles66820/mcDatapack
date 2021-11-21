@@ -1,5 +1,4 @@
 {
-	"credit": "Made with Blockbench",
 	"textures": {
 		"2": "bitacu:player"
 	},
@@ -92,41 +91,6 @@
 				"up": {"uv": [14, 4, 16, 8], "rotation": 180, "texture": "#2"},
 				"down": {"uv": [10, 4, 12, 8], "texture": "#2"}
 			}
-		},
-		{
-			"name": "steve_body_2nd_layer",
-			"from": [4, 7.49, 4.02],
-			"to": [12, 12.49, 17.03],
-			"color": 3,
-			"faces": {}
-		},
-		{
-			"name": "steve_right_arm_2nd_layer",
-			"from": [-0.5, 7.5, 4],
-			"to": [4.49, 12.5, 17],
-			"color": 7,
-			"faces": {}
-		},
-		{
-			"name": "steve_left_arm_2nd_layer",
-			"from": [11.5, 7.5, 4],
-			"to": [16.5, 12.5, 17],
-			"color": 4,
-			"faces": {}
-		},
-		{
-			"name": "steve_right_leg_2nd_layer",
-			"from": [3.5, 7.5, -8],
-			"to": [8.5, 12.5, 5],
-			"color": 5,
-			"faces": {}
-		},
-		{
-			"name": "steve_left_leg_2nd_layer",
-			"from": [7.5, 7.5, -8],
-			"to": [12.5, 12.5, 5],
-			"color": 0,
-			"faces": {}
 		}
 	],
 	"display": {

@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+      "layer0": "minecraft:item/wooden_hoe"
+  },
+  "overrides": [
+      { "predicate": {"custom_model_data": 1}, "model": "bitacu:block/wooden_cube"},
+      { "predicate": {"custom_model_data": 2}, "model": "bitacu:block/bed3d"},
+      { "predicate": {"custom_model_data": 3}, "model": "bitacu:block/wooden_big_cube"},
+      { "predicate": {"custom_model_data": 4}, "model": "bitacu:block/wooden_bed_with_cube"},
+      { "predicate": {"custom_model_data": 5}, "model": "bitacu:player/launcher"},
+      { "predicate": {"custom_model_data": 6}, "model": "bitacu:player/launcher_lengthen"},
+      { "predicate": {"custom_model_data": 7}, "model": "minecraft:item/diamond_hoe"}
+  ]
+}

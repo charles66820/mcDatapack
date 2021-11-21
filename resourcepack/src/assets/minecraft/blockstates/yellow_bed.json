@@ -7,10 +7,10 @@
       "model": "bitacu:block/bed", "y": 270
     },
     "facing=south,part=foot": {
-      "model": "bitacu:block/bed"
+      "model": "bitacu:block/wooden_bed_with_cube"
     },
     "facing=west,part=foot": {
-      "model": "bitacu:block/bed2", "y": 90
+      "model": "bitacu:block/bed3d", "y": 90
     },
     "facing=north,part=head": {
       "model": "bitacu:block/bed", "y": 180
@@ -19,10 +19,10 @@
       "model": "bitacu:block/bed", "y": 270
     },
     "facing=south,part=head": {
-      "model": "bitacu:block/bed"
+      "model": "bitacu:block/wooden_bed_with_cube"
     },
     "facing=west,part=head": {
-      "model": "bitacu:block/bed2", "y": 90
+      "model": "bitacu:block/bed3d", "y": 90
     }
   }
 }
