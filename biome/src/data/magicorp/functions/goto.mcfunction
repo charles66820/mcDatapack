@@ -1,1 +1,1 @@
-execute in magicorp:rome run tp @s ~ ~ ~
+execute in magicorp:bitacu run tp @s ~ ~ ~
