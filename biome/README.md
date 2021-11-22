@@ -2,4 +2,4 @@
 
 ## Utile
 
-`https://misode.github.io/predicate/`
+`https://misode.github.io/worldgen/`
