@@ -4,11 +4,11 @@
   "precipitation": "none",
   "category": "desert",
   "effects": {
-    "sky_color": 7907327,
-    "fog_color": 8882055,
+    "sky_color": 5583145,
+    "fog_color": 4473924,
     "water_color": 9043968,
     "water_fog_color": 16753152,
-    "grass_color": 9071616,
+    "grass_color": 7907327,
     "foliage_color": 9071616,
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -18,9 +18,9 @@
     },
     "particle": {
       "options": {
-        "type": "large_smoke"
+        "type": "smoke"
       },
-      "probability": 0.4
+      "probability": 0.01
     }
   },
   "spawners": {

@@ -7,7 +7,7 @@
   "ore_veins_enabled": true,
   "legacy_random_source": false,
   "default_block": {
-    "Name": "minecraft:coal_block"
+    "Name": "minecraft:stone"
   },
   "default_fluid": {
     "Name": "minecraft:water",
@@ -16,8 +16,8 @@
     }
   },
   "noise": {
-    "min_y": -64,
-    "height": 384,
+    "min_y": 64,
+    "height": 128,
     "size_horizontal": 1,
     "size_vertical": 2,
     "island_noise_override": false,
@@ -50,13 +50,13 @@
     "if_true": {
       "type": "minecraft:biome",
       "biome_is": [
-        "minecraft:desert"
+        "magicorp:mordor"
       ]
     },
     "then_run": {
       "type": "minecraft:block",
       "result_state": {
-        "Name": "minecraft:diamond_block"
+        "Name": "minecraft:deepslate"
       }
     }
   },
