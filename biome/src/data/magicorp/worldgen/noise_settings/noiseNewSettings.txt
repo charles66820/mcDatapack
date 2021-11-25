@@ -1,0 +1,17 @@
+{
+  "surface_rule": {
+    "type": "minecraft:condition",
+    "if_true": {
+      "type": "minecraft:biome",
+      "biome_is": [
+        "magicorp:mordor"
+      ]
+    },
+    "then_run": {
+      "type": "minecraft:block",
+      "result_state": {
+        "Name": "minecraft:deepslate"
+      }
+    }
+  }
+}
