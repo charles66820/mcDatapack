@@ -2,7 +2,7 @@
   "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:noise",
-    "seed": 0,
+    "seed": -1676058060343037717,
     "settings": "minecraft:overworld",
     "biome_source": {
       "type": "minecraft:multi_noise",
@@ -10,13 +10,13 @@
         {
           "parameters": {
             "erosion": [
-              -0.40,
-              1.0
+              -1.0,
+              -0.7799
             ],
             "depth": 0.0,
             "weirdness": [
-              -1.0,
-              -0.8
+              -0.9333,
+              -0.7666000000000001
             ],
             "offset": 0.0,
             "temperature": [
@@ -33,6 +33,33 @@
             ]
           },
           "biome": "magicorp:mordor"
+        },
+        {
+          "biome": "magicorp:flower_forest",
+          "parameters": {
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              -0.35
+            ],
+            "continentalness": [
+              0.03,
+              0.3
+            ],
+            "erosion": [
+              -0.2225,
+              -0.05
+            ],
+            "weirdness": [
+              -0.5666,
+              -0.45
+            ],
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
           "parameters": {
