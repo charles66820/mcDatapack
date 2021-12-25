@@ -8,31 +8,31 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
+          "biome": "magicorp:mordor",
           "parameters": {
-            "erosion": [
-              -1.0,
-              -0.7799
-            ],
-            "depth": 0.0,
-            "weirdness": [
-              -0.9333,
-              -0.7666000000000001
-            ],
-            "offset": 0.0,
             "temperature": [
-              0.75,
+              0.7,
               1
             ],
             "humidity": [
-              0.50,
-              1
+              -0.45,
+              0.5
             ],
             "continentalness": [
-              0.75,
+              0.1,
               1
-            ]
-          },
-          "biome": "magicorp:mordor"
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
           "biome": "magicorp:flower_forest",
