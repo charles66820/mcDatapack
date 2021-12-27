@@ -1,4 +1,4 @@
-archive = biome.zip
+archive = biomeTest.zip
 
 all:
 	cd src && zip -o ../$(archive) -r * && cd ..
