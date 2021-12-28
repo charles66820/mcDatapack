@@ -2,6 +2,9 @@
 execute as @e[type=minecraft:player] unless entity @e[tag=tp] unless entity @e[tag=notTp] run tag @s add tp
 scoreboard players enable @a toggleTp
 
+# set in creative
+execute as @e[type=minecraft:player,gamemode=survival] run gamemode creative @s
+
 # tp
 execute if entity @e[type=minecraft:player,tag=tp] as @e[type=minecraft:player,tag=tp] run teleport @s 24 227 -316 120 34
 
