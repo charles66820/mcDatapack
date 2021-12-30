@@ -2722,7 +2722,24 @@
                       "if_true": {
                         "type": "minecraft:y_above",
                         "anchor": {
-                          "absolute": 128
+                          "absolute": 93
+                        },
+                        "surface_depth_multiplier": 2,
+                        "add_stone_depth": false
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "minecraft:gray_concrete_powder"
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:y_above",
+                        "anchor": {
+                          "absolute": 79
                         },
                         "surface_depth_multiplier": 2,
                         "add_stone_depth": false
@@ -2962,7 +2979,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:orange_terracotta"
+                              "Name": "minecraft:cyan_terracotta"
                             }
                           }
                         },
@@ -2990,7 +3007,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:terracotta"
+                                    "Name": "minecraft:brown_terracotta"
                                   }
                                 }
                               },
@@ -3005,7 +3022,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:terracotta"
+                                    "Name": "minecraft:brown_terracotta"
                                   }
                                 }
                               },
@@ -3020,7 +3037,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:terracotta"
+                                    "Name": "minecraft:brown_terracotta"
                                   }
                                 }
                               },
@@ -3053,7 +3070,7 @@
                                 "then_run": {
                                   "type": "minecraft:block",
                                   "result_state": {
-                                    "Name": "minecraft:red_sandstone"
+                                    "Name": "minecraft:brown_terracotta"
                                   }
                                 }
                               },
@@ -3077,7 +3094,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:orange_terracotta"
+                              "Name": "minecraft:brown_terracotta"
                             }
                           }
                         },
@@ -3092,7 +3109,7 @@
                           "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                              "Name": "minecraft:white_terracotta"
+                              "Name": "minecraft:brown_terracotta"
                             }
                           }
                         },
@@ -3165,7 +3182,7 @@
                             "then_run": {
                               "type": "minecraft:block",
                               "result_state": {
-                                "Name": "minecraft:orange_terracotta"
+                                "Name": "minecraft:black_terracotta"
                               }
                             }
                           }
@@ -3196,7 +3213,7 @@
                       "then_run": {
                         "type": "minecraft:block",
                         "result_state": {
-                          "Name": "minecraft:white_terracotta"
+                          "Name": "minecraft:black_terracotta"
                         }
                       }
                     }
