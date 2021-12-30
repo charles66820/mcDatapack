@@ -1,9 +1,16 @@
 resourcepacksDir = /mnt/game/minecraft/cmod/resourcepacks
-archive = pack.zip
+
+mkfilePath := $(abspath $(lastword $(MAKEFILE_LIST)))
+prjPath := $(dir $(mkfilePath))
+prjDir := $(notdir $(patsubst %/,%,$(prjPath)))
+
+archive := $(prjDir).zip
+archivePath := $(prjPath)$(archive)
+
 
 all:
-	cd src && zip -o ../$(archive) -r * && cd ..
-	cp $(archive) $(resourcepacksDir)/$(archive)
+	cd $(prjPath)src && zip -o $(archivePath) -r * && cd $(prjPath)
+	cp $(archivePath) $(resourcepacksDir)/$(archive)
 
 clean:
-	rm -f $(archive)
+	rm -f $(archivePath)

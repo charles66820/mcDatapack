@@ -1,7 +1,13 @@
-archive = treasuresHunt.zip
+mkfilePath := $(abspath $(lastword $(MAKEFILE_LIST)))
+prjPath := $(dir $(mkfilePath))
+prjDir := $(notdir $(patsubst %/,%,$(prjPath)))
+
+archive := $(prjDir).zip
+archivePath := $(prjPath)$(archive)
+
 
 all:
-	cd src && zip -o ../$(archive) -r * && cd ..
+	cd $(prjPath)src && zip -o $(archivePath) -r * && cd $(prjPath)
 
 clean:
-	rm -f $(archive)
+	rm -f $(archivePath)
