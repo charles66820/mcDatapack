@@ -3,7 +3,7 @@
   "generator": {
     "type": "minecraft:noise",
     "seed": -1676058060343037717,
-    "settings": "magicorp:bitacu",
+    "settings": "magicorp:erebus",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
