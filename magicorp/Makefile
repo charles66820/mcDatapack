@@ -5,7 +5,6 @@ prjDir := $(notdir $(patsubst %/,%,$(prjPath)))
 archive := $(prjDir).zip
 archivePath := $(prjPath)$(archive)
 
-
 all:
 	cd $(prjPath)src && zip -o $(archivePath) -r * && cd $(prjPath)
 
