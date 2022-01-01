@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "magicorp:i_see_you"
+    "magicorp:i_see_you",
+    "portal_system:main_loop"
   ]
 }
