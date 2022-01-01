@@ -3907,24 +3907,6 @@
                           }
                         },
                         {
-                          "type": "minecraft:condition",
-                          "if_true": {
-                            "type": "minecraft:biome",
-                            "biome_is": [
-                              "magicorp:dead_forest"
-                            ]
-                          },
-                          "then_run": {
-                            "type": "minecraft:block",
-                            "result_state": {
-                              "Name": "minecraft:podzol",
-                              "Properties": {
-                                "snowy": "false"
-                              }
-                            }
-                          }
-                        },
-                        {
                           "type": "minecraft:sequence",
                           "sequence": [
                             {
