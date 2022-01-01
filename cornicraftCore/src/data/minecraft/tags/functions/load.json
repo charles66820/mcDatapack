@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "magicorp:init"
+    "cornicraft_core:init"
   ]
 }
