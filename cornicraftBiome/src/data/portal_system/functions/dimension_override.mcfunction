@@ -1,1 +1,0 @@
-execute if entity @s[tag=erebus] if predicate portal_system:in_erebus run scoreboard players set .invalid dim_portals 0

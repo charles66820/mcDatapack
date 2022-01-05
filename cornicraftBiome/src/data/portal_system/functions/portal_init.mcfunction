@@ -1,4 +1,3 @@
-# portal inspired by `Cloud Wolf`
-
-scoreboard objectives add dim_portals dummy
-scoreboard objectives add dimp_flsteel minecraft.used:minecraft.flint_and_steel
+scoreboard objectives add loop_var dummy
+scoreboard objectives add countdown dummy
+scoreboard objectives add activator_used minecraft.used:minecraft.flint_and_steel

@@ -1,1 +1,0 @@
-execute if block ~ ~ ~ blackstone if predicate portal_system:portals_x run function portal_system:check/origin_x
