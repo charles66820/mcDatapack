@@ -2,7 +2,7 @@
   "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:noise",
-    "seed": -1676058060343037717,
+    "seed": -15786267813489544,
     "settings": "magicorp:erebus",
     "biome_source": {
       "type": "minecraft:multi_noise",
