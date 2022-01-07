@@ -248,7 +248,7 @@
               -0.2
             ]
           },
-          "biome": "minecraft:ocean"
+          "biome": "magicorp:ocean"
         },
         {
           "parameters": {
@@ -275,7 +275,7 @@
               -0.2
             ]
           },
-          "biome": "minecraft:ocean"
+          "biome": "magicorp:ocean"
         },
         {
           "parameters": {
