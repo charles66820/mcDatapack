@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": "Aww man !",
+    "description": "Creeper !?",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cornicraft_core:cornicraft/root",
+  "criteria": {
+    "creeper_aww_man": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creeper"
+        }
+      }
+    }
+  },
+	"requirements": [
+    [
+      "creeper_aww_man"
+    ]
+  ],
+  "rewards": {
+    "function": "cornicraft_core:creeper_aww_man"
+  }
+}

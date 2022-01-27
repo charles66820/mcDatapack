@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "title": "Partir là bas.",
+    "description": "Jouez avec l'outil du roi des mers",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cornicraft_core:cornicraft/root",
+  "criteria": {
+    "trident_used": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "location": {
+            "fluid": {
+              "fluid": "minecraft:empty"
+            }
+          },
+          "vehicle": {
+            "type": "minecraft:trident",
+            "location": {
+              "fluid": {
+                "fluid": "minecraft:empty"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "trident_used"
+    ]
+  ]
+}
