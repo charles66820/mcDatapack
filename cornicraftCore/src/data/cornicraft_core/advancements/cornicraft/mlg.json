@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dirt"
+    },
+    "title": "MLG Bucket",
+    "description": "Sauvez votre peau des dégats de chutes avec un seau d'eau",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cornicraft_core:cornicraft/root",
+  "criteria": {
+    "fall_in_water": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player",
+              "nbt": "{SelectedItem:{id:\"minecraft:bucket\"}}",
+              "location": {
+                "block": {
+                  "blocks": [
+                    "minecraft:water"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "start_position": {
+          "position": {
+            "y": {
+              "min": -44,
+              "max": 256
+            }
+          }
+        },
+        "distance": {
+          "y": {
+            "min": 20,
+            "max": 383
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "fall_in_water"
+    ]
+  ]
+}
