@@ -14,20 +14,15 @@
     "trident_used": {
       "trigger": "minecraft:using_item",
       "conditions": {
-        "player": {
-          "location": {
-            "fluid": {
-              "fluid": "minecraft:empty"
+        "item": {
+          "items": [
+            "minecraft:trident"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:riptide"
             }
-          },
-          "vehicle": {
-            "type": "minecraft:trident",
-            "location": {
-              "fluid": {
-                "fluid": "minecraft:empty"
-              }
-            }
-          }
+          ]
         }
       }
     }
