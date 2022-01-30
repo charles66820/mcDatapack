@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_bed"
+    },
+    "title": "Alpiniste professionnel",
+    "description": "Monter au niveau le plus haut de Minecraft et dormer",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cornicraft_core:cornicraft/root",
+  "criteria": {
+    "sleep_in_the_cloud": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {
+        "location": {
+          "position": {
+            "y": {
+              "min": 319,
+              "max": 320
+            }
+          },
+          "dimension": "minecraft:overworld"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sleep_in_the_cloud"
+    ]
+  ]
+}

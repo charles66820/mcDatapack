@@ -35,14 +35,13 @@
           "position": {
             "y": {
               "min": -44,
-              "max": 256
+              "max": 320
             }
           }
         },
         "distance": {
           "y": {
-            "min": 20,
-            "max": 383
+            "min": 20
           }
         }
       }

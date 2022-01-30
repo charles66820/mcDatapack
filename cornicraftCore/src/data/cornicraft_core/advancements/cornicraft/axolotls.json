@@ -1,0 +1,97 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:axolotl_bucket"
+    },
+    "title": "Axolotls !",
+    "description": "Attraper les axolotls avec les sceaux",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cornicraft_core:cornicraft/root",
+  "criteria": {
+    "axolotl_yellow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:axolotl_bucket"
+            ],
+            "nbt": "{Variant:0}"
+          }
+        ]
+      }
+    },
+    "axolotl_wild": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:axolotl_bucket"
+            ],
+            "nbt": "{Variant:1}"
+          }
+        ]
+      }
+    },
+    "axolotl_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:axolotl_bucket"
+            ],
+            "nbt": "{Variant:2}"
+          }
+        ]
+      }
+    },
+    "axolotl_cyan": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:axolotl_bucket"
+            ],
+            "nbt": "{Variant:3}"
+          }
+        ]
+      }
+    },
+    "axolotl_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:axolotl_bucket"
+            ],
+            "nbt": "{Variant:4}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "axolotl_yellow"
+    ],
+    [
+      "axolotl_wild"
+    ],
+    [
+      "axolotl_gold"
+    ],
+    [
+      "axolotl_cyan"
+    ],
+    [
+      "axolotl_blue"
+    ]
+  ]
+}

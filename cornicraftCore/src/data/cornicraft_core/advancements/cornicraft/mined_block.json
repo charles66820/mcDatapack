@@ -21,8 +21,7 @@
                 "type": "minecraft:mined",
                 "stat": "minecraft:stone",
                 "value": {
-                  "min": 10000,
-                  "max": 100000
+                  "min": 10000
                 }
               }
             ]
