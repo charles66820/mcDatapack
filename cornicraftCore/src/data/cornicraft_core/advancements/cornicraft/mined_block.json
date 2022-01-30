@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dirt"
+    },
+    "title": "Destructeur",
+    "description": "Cassez beaucoup de blocs",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cornicraft_core:cornicraft/root",
+  "criteria": {
+    "lightning_rod_with_villager_no_fire": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:mined",
+                "stat": "minecraft:stone",
+                "value": {
+                  "min": 10000,
+                  "max": 100000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
