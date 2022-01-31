@@ -4,7 +4,7 @@
       "item": "minecraft:totem_of_undying"
     },
     "title": "Le maillon faible",
-    "description": "Mourir souvent.",
+    "description": "Mourir souvent",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

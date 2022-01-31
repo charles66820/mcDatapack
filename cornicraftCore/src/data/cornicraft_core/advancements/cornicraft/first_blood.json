@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:iron_sword"
     },
     "title": "Premier sang",
-    "description": "Tuez un joueur.",
+    "description": "Tuez un joueur",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

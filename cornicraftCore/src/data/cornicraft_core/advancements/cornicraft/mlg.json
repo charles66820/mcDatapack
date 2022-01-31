@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:water_bucket"
     },
     "title": "MLG Bucket",
     "description": "Sauvez votre peau des dégats de chutes avec un seau d'eau",
