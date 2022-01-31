@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "particle": "magicorp:block/rainbow_wool",
+    "down": "magicorp:block/rainbow_wool",
+    "up": "magicorp:block/rainbow_wool",
+    "north": "magicorp:block/rainbow_wool_alt",
+    "east": "minecraft:block/red_wool",
+    "south": "magicorp:block/rainbow_wool",
+    "west": "minecraft:block/purple_wool"
+}
+}

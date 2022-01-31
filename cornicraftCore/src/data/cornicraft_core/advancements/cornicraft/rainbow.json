@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:knowledge_book",
+      "nbt": "{CustomModelData:1,display:{Name:'{\"text\":\"Rainbow Wool\",\"color\":\"white\",\"italic\":false}',Lore:['{\"text\":\"Building Blocks\",\"italic\":false,\"color\":\"blue\"}']}}"
     },
     "title": "Arc en ciel",
     "description": "Poser 7 tapis de couleurs côte à côte",
