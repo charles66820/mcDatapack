@@ -1,0 +1,144 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dirt"
+    },
+    "title": "Arc en ciel",
+    "description": "Poser 7 tapis de couleurs côte à côte",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cornicraft_core:cornicraft/root",
+  "criteria": {
+    "rainbow": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:alternative",
+            "terms": [
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_x_rainbow_red"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_-x_rainbow_red"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_z_rainbow_red"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_-z_rainbow_red"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_x_rainbow_orange"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_-x_rainbow_orange"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_z_rainbow_orange"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_-z_rainbow_orange"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_x_rainbow_yellow"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_-x_rainbow_yellow"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_z_rainbow_yellow"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_-z_rainbow_yellow"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_x_rainbow_green"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_-x_rainbow_green"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_z_rainbow_green"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_-z_rainbow_green"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_x_rainbow_light_blue"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_-x_rainbow_light_blue"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_z_rainbow_light_blue"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_-z_rainbow_light_blue"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_x_rainbow_blue"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_-x_rainbow_blue"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_z_rainbow_blue"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_-z_rainbow_blue"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_x_rainbow_purple"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_-x_rainbow_purple"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_z_rainbow_purple"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "cornicraft_core:is_-z_rainbow_purple"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "rainbow"
+    ]
+  ]
+}

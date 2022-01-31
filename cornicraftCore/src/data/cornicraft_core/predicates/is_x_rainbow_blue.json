@@ -1,0 +1,86 @@
+[
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -5,
+    "offsetZ": 0,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:red_carpet"
+        ]
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -4,
+    "offsetZ": 0,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:orange_carpet"
+        ]
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -3,
+    "offsetZ": 0,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:yellow_carpet"
+        ]
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -2,
+    "offsetZ": 0,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:lime_carpet"
+        ]
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": -1,
+    "offsetZ": 0,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:light_blue_carpet"
+        ]
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 0,
+    "offsetZ": 0,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:blue_carpet"
+        ]
+      }
+    }
+  },
+  {
+    "condition": "minecraft:location_check",
+    "offsetX": 1,
+    "offsetZ": 0,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:purple_carpet"
+        ]
+      }
+    }
+  }
+]
