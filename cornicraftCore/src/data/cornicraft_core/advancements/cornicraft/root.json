@@ -6,7 +6,6 @@
     "title": "Cornicraft",
     "description": "All Cornicraft advancements",
     "background": "minecraft:textures/block/amethyst_block.png",
-    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

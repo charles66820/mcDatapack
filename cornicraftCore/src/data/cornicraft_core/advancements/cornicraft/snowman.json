@@ -5,7 +5,6 @@
     },
     "title": "Libérée, délivrée !",
     "description": "Vous voulez un bonhomme de neige?",
-    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -5,6 +5,7 @@
     },
     "title": "Alpiniste professionnel",
     "description": "Monter au niveau le plus haut de Minecraft et dormer",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

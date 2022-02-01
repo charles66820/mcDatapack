@@ -5,6 +5,7 @@
     },
     "title": "MLG Bucket",
     "description": "Sauvez votre peau des dégats de chutes avec un seau d'eau",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

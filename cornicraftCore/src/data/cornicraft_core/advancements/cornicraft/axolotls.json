@@ -5,6 +5,7 @@
     },
     "title": "Axolotls !",
     "description": "Attraper les axolotls avec les sceaux",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

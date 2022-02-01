@@ -6,6 +6,7 @@
     },
     "title": "Partir là bas",
     "description": "Jouez avec l'outil du roi des mers",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
