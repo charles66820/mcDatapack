@@ -4,7 +4,7 @@
       "item": "minecraft:trident",
       "nbt": "{Enchantments:[{id:\"minecraft:riptide\"}]}"
     },
-    "title": "Partir là bas.",
+    "title": "Partir là bas",
     "description": "Jouez avec l'outil du roi des mers",
     "show_toast": true,
     "announce_to_chat": true,
