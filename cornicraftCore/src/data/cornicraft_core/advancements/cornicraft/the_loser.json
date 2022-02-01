@@ -16,12 +16,19 @@
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:entity_scores",
+            "condition": "minecraft:entity_properties",
             "entity": "this",
-            "scores": {
-              "deathCount": {
-                "min": 20,
-                "max": 255
+            "predicate": {
+              "player": {
+                "stats": [
+                  {
+                    "type": "minecraft:custom",
+                    "stat": "minecraft:deaths",
+                    "value": {
+                      "min": 20
+                    }
+                  }
+                ]
               }
             }
           }
