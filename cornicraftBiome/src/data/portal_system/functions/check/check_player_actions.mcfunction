@@ -10,11 +10,12 @@ scoreboard players reset @s activator_used
 
 # count when players are in portal
 scoreboard players add @s[tag=in_portal] countdown 1
+execute if score @s countdown matches 1.. run effect give @s minecraft:nausea 4 255 true
+execute if score @s countdown matches 1..2 at @s run function portal_system:portal/load_portal_chunk
 
 # reset conter when players are not in portal
 execute if score @s countdown matches 1.. run scoreboard players reset @s[tag=!in_portal] countdown
 
-execute if score @s countdown matches 1.. run effect give @s minecraft:nausea 4 255 true
 
 # when players countdown permite the portal teleportation
 execute if score @s countdown matches 80..100 at @s run function portal_system:portal/warp
