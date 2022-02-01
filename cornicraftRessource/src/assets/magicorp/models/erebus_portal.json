@@ -2719,6 +2719,7 @@
 	],
 	"display": {
 		"ground": {
+			"rotation": [0, 90, 0],
 			"translation": [0, 3, 0]
 		},
 		"gui": {
