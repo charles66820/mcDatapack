@@ -1,12 +1,7 @@
 {
-  "surface_builder": "minecraft:grass",
-  "depth": -1,
-  "scale": 0.1,
   "temperature": 0.5,
   "downfall": 0.5,
   "precipitation": "rain",
-  "category": "ocean",
-  "player_spawn_friendly": false,
   "effects": {
     "sky_color": 5583145,
     "fog_color": 4473924,
@@ -21,12 +16,6 @@
       "offset": 2
     }
   },
-  "starts": [
-    "minecraft:mineshaft",
-    "minecraft:shipwreck",
-    "minecraft:ocean_ruin_cold",
-    "minecraft:ruined_portal_ocean"
-  ],
   "spawners": {
     "monster": [
       {
