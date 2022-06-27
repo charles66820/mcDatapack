@@ -13,7 +13,10 @@
     "barrier": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:deepslate"
+        "Name": "minecraft:deepslate",
+        "Properties": {
+          "axis": "y"
+        }
       }
     }
   }
