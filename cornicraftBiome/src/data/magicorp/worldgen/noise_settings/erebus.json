@@ -4630,27 +4630,25 @@
     ]
   },
   "structures": {
-    "structures": {
-      "minecraft:buried_treasure": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 0
-      },
-      "minecraft:ruined_portal": {
-        "spacing": 35,
-        "separation": 15,
-        "salt": 34222645
-      },
-      "minecraft:mineshaft": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 0
-      },
-      "minecraft:pillager_outpost": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 165745296
-      }
+    "minecraft:buried_treasure": {
+      "spacing": 1,
+      "separation": 0,
+      "salt": 0
+    },
+    "minecraft:ruined_portal": {
+      "spacing": 35,
+      "separation": 15,
+      "salt": 34222645
+    },
+    "minecraft:mineshaft": {
+      "spacing": 1,
+      "separation": 0,
+      "salt": 0
+    },
+    "minecraft:pillager_outpost": {
+      "spacing": 32,
+      "separation": 8,
+      "salt": 165745296
     }
   }
 }
