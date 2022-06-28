@@ -23,10 +23,8 @@
               "type": "minecraft:player",
               "nbt": "{SelectedItem:{id:\"minecraft:bucket\"}}",
               "location": {
-                "block": {
-                  "blocks": [
-                    "minecraft:water"
-                  ]
+                "fluid": {
+                  "tag": "minecraft:water"
                 }
               }
             }

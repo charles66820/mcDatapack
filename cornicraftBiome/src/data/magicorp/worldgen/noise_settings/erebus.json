@@ -430,7 +430,8 @@
                   "type": "minecraft:stone_depth",
                   "offset": 4,
                   "surface_type": "floor",
-                  "add_surface_depth": false
+                  "add_surface_depth": false,
+                  "secondary_depth_range": 0
                 },
                 "then_run": {
                   "type": "minecraft:sequence",
@@ -502,7 +503,8 @@
                 "type": "minecraft:stone_depth",
                 "offset": 0,
                 "surface_type": "floor",
-                "add_surface_depth": false
+                "add_surface_depth": false,
+                "secondary_depth_range": 0
               },
               "then_run": {
                 "type": "minecraft:sequence",
@@ -677,7 +679,8 @@
                       "type": "minecraft:stone_depth",
                       "offset": 0,
                       "surface_type": "floor",
-                      "add_surface_depth": false
+                      "add_surface_depth": false,
+                      "secondary_depth_range": 0
                     },
                     "then_run": {
                       "type": "minecraft:sequence",
@@ -780,7 +783,8 @@
                                   "type": "minecraft:stone_depth",
                                   "offset": 0,
                                   "surface_type": "ceiling",
-                                  "add_surface_depth": false
+                                  "add_surface_depth": false,
+                                  "secondary_depth_range": 0
                                 },
                                 "then_run": {
                                   "type": "minecraft:block",
@@ -837,7 +841,8 @@
                                 "type": "minecraft:stone_depth",
                                 "offset": 0,
                                 "surface_type": "ceiling",
-                                "add_surface_depth": false
+                                "add_surface_depth": false,
+                                "secondary_depth_range": 0
                               },
                               "then_run": {
                                 "type": "minecraft:block",
@@ -913,7 +918,8 @@
                       "type": "minecraft:stone_depth",
                       "offset": 0,
                       "surface_type": "floor",
-                      "add_surface_depth": true
+                      "add_surface_depth": true,
+                      "secondary_depth_range": 0
                     },
                     "then_run": {
                       "type": "minecraft:condition",
@@ -940,7 +946,8 @@
                 "type": "minecraft:stone_depth",
                 "offset": 0,
                 "surface_type": "floor",
-                "add_surface_depth": false
+                "add_surface_depth": false,
+                "secondary_depth_range": 0
               },
               "then_run": {
                 "type": "minecraft:condition",
@@ -1255,7 +1262,8 @@
                                             "type": "minecraft:stone_depth",
                                             "offset": 0,
                                             "surface_type": "ceiling",
-                                            "add_surface_depth": false
+                                            "add_surface_depth": false,
+                                            "secondary_depth_range": 0
                                           },
                                           "then_run": {
                                             "type": "minecraft:block",
@@ -1326,7 +1334,8 @@
                                       "type": "minecraft:stone_depth",
                                       "offset": 0,
                                       "surface_type": "ceiling",
-                                      "add_surface_depth": false
+                                      "add_surface_depth": false,
+                                      "secondary_depth_range": 0
                                     },
                                     "then_run": {
                                       "type": "minecraft:block",
@@ -1433,7 +1442,8 @@
                                         "type": "minecraft:stone_depth",
                                         "offset": 0,
                                         "surface_type": "ceiling",
-                                        "add_surface_depth": false
+                                        "add_surface_depth": false,
+                                        "secondary_depth_range": 0
                                       },
                                       "then_run": {
                                         "type": "minecraft:block",
@@ -1513,7 +1523,8 @@
                                       "type": "minecraft:stone_depth",
                                       "offset": 0,
                                       "surface_type": "ceiling",
-                                      "add_surface_depth": false
+                                      "add_surface_depth": false,
+                                      "secondary_depth_range": 0
                                     },
                                     "then_run": {
                                       "type": "minecraft:block",
@@ -1666,7 +1677,8 @@
                       "type": "minecraft:stone_depth",
                       "offset": 0,
                       "surface_type": "floor",
-                      "add_surface_depth": false
+                      "add_surface_depth": false,
+                      "secondary_depth_range": 0
                     },
                     "then_run": {
                       "type": "minecraft:condition",
@@ -1700,7 +1712,8 @@
                       "type": "minecraft:stone_depth",
                       "offset": 0,
                       "surface_type": "floor",
-                      "add_surface_depth": true
+                      "add_surface_depth": true,
+                      "secondary_depth_range": 0
                     },
                     "then_run": {
                       "type": "minecraft:sequence",
@@ -1930,7 +1943,8 @@
                                             "type": "minecraft:stone_depth",
                                             "offset": 0,
                                             "surface_type": "ceiling",
-                                            "add_surface_depth": false
+                                            "add_surface_depth": false,
+                                            "secondary_depth_range": 0
                                           },
                                           "then_run": {
                                             "type": "minecraft:block",
@@ -2001,7 +2015,8 @@
                                       "type": "minecraft:stone_depth",
                                       "offset": 0,
                                       "surface_type": "ceiling",
-                                      "add_surface_depth": false
+                                      "add_surface_depth": false,
+                                      "secondary_depth_range": 0
                                     },
                                     "then_run": {
                                       "type": "minecraft:block",
@@ -2088,7 +2103,8 @@
                                         "type": "minecraft:stone_depth",
                                         "offset": 0,
                                         "surface_type": "ceiling",
-                                        "add_surface_depth": false
+                                        "add_surface_depth": false,
+                                        "secondary_depth_range": 0
                                       },
                                       "then_run": {
                                         "type": "minecraft:block",
@@ -2145,7 +2161,8 @@
                                       "type": "minecraft:stone_depth",
                                       "offset": 0,
                                       "surface_type": "ceiling",
-                                      "add_surface_depth": false
+                                      "add_surface_depth": false,
+                                      "secondary_depth_range": 0
                                     },
                                     "then_run": {
                                       "type": "minecraft:block",
@@ -2191,7 +2208,8 @@
                         "type": "minecraft:stone_depth",
                         "offset": 0,
                         "surface_type": "floor",
-                        "add_surface_depth": true
+                        "add_surface_depth": true,
+                        "secondary_depth_range": 0
                       },
                       "then_run": {
                         "type": "minecraft:block",
@@ -2210,7 +2228,8 @@
                 "type": "minecraft:stone_depth",
                 "offset": 0,
                 "surface_type": "floor",
-                "add_surface_depth": false
+                "add_surface_depth": false,
+                "secondary_depth_range": 0
               },
               "then_run": {
                 "type": "minecraft:sequence",
@@ -2250,7 +2269,8 @@
                             "type": "minecraft:stone_depth",
                             "offset": 0,
                             "surface_type": "ceiling",
-                            "add_surface_depth": false
+                            "add_surface_depth": false,
+                            "secondary_depth_range": 0
                           },
                           "then_run": {
                             "type": "minecraft:block",
@@ -2277,7 +2297,8 @@
                           "type": "minecraft:stone_depth",
                           "offset": 0,
                           "surface_type": "ceiling",
-                          "add_surface_depth": false
+                          "add_surface_depth": false,
+                          "secondary_depth_range": 0
                         },
                         "then_run": {
                           "type": "minecraft:block",

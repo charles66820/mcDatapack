@@ -15,7 +15,9 @@
       "trigger": "minecraft:item_durability_changed",
       "conditions": {
         "player": {
-          "player": {
+          "type": "minecraft:player",
+          "type_specific": {
+            "type": "player",
             "stats": [
               {
                 "type": "minecraft:mined",
