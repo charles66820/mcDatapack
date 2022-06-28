@@ -2,8 +2,7 @@
   "mordor": {
     "category": "ambient",
     "sounds": [
-      "magicorp:mordor",
-      "magicorp:creeper_aw_man"
+      "magicorp:mordor"
     ]
   },
   "creeper_aw_man": {
