@@ -15,14 +15,16 @@
     "sleep_in_the_cloud": {
       "trigger": "minecraft:slept_in_bed",
       "conditions": {
-        "location": {
-          "position": {
-            "y": {
-              "min": 319,
-              "max": 320
-            }
-          },
-          "dimension": "minecraft:overworld"
+        "player": {
+          "location": {
+            "position": {
+              "y": {
+                "min": 319,
+                "max": 320
+              }
+            },
+            "dimension": "minecraft:overworld"
+          }
         }
       }
     }

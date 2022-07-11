@@ -9,7 +9,6 @@
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
-
   },
   "criteria": {
     "fisrt_connection": {
@@ -25,7 +24,7 @@
       }
     }
   },
-	"requirements": [
+  "requirements": [
     [
       "fisrt_connection"
     ]

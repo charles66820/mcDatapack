@@ -20,7 +20,7 @@
       }
     }
   },
-	"requirements": [
+  "requirements": [
     [
       "kill_player"
     ]
