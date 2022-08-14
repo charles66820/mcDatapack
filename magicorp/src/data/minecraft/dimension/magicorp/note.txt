@@ -1,6 +1,0 @@
-,
-"magicorp:tree": {
-    "spacing": 32,
-    "separation": 8,
-    "salt": 10387312
-}
