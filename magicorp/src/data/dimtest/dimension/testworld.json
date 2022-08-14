@@ -7,7 +7,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "minecraft:jungle_edge",
+          "biome": "minecraft:sparse_jungle",
           "parameters": {
             "temperature": 0.5,
             "humidity": 0,

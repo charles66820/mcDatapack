@@ -1,1 +1,1 @@
-execute in dimtest:worldtest run tp @s ~ ~ ~
+execute in dimtest:testworld run tp @s ~ ~ ~
