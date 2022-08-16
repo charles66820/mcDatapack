@@ -1,0 +1,22 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "bitacu:font/grid.png",
+			"ascent": 39,
+			"height": 104,
+			"chars": [
+				"a"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "bitacu:font/grid.png",
+			"ascent": 10,
+			"height": 104,
+			"chars": [
+				"b"
+			]
+		}
+	]
+}

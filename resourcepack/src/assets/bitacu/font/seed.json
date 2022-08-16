@@ -1,0 +1,13 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "bitacu:font/seed.png",
+			"ascent": 8,
+			"height": 40,
+			"chars": [
+				"s"
+			]
+		}
+	]
+}
