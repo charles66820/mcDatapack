@@ -1,0 +1,15 @@
+{
+  "name": "dimtest:tree_template_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "dimtest:tree_nbt",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}
