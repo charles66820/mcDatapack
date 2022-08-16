@@ -1,0 +1,1 @@
+setblock ~ ~-1 ~ minecraft:chest{LootTable:"magicorp:personal_item_chest"} destroy
