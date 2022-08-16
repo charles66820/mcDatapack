@@ -14,6 +14,8 @@
 - `worldgen/structure` place with  `/place structure ...`
 - `worldgen/template_pool` place with  `/place jigsaw ...`
 
+- in loot_table the `pools functions` refer to all the generate items, the `pool functions` refer to all the pool generate items and the `entry functions` refer to the generate item.
+
 ## Chars
 
 `∞☀☁♩♪♫♬♭`
