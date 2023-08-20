@@ -11,7 +11,7 @@
     "hidden": false
   },
   "criteria": {
-    "fisrt_connection": {
+    "first_connection": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -26,7 +26,7 @@
   },
   "requirements": [
     [
-      "fisrt_connection"
+      "first_connection"
     ]
   ]
 }

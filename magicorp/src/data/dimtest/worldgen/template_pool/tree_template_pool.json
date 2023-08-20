@@ -1,5 +1,4 @@
 {
-  "name": "dimtest:tree_template_pool",
   "fallback": "minecraft:empty",
   "elements": [
     {

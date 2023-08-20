@@ -11,7 +11,7 @@
   },
   "parent": "cornicraft_core:cornicraft/root",
   "criteria": {
-    "lightning_rod_with_villager_no_fire": {
+    "used_block": {
       "trigger": "minecraft:placed_block",
       "conditions": {
         "player": {
@@ -29,8 +29,14 @@
               }
             ]
           }
-        }
+        },
+        "location": {}
       }
     }
-  }
+  },
+  "requirements": [
+    [
+      "used_block"
+    ]
+  ]
 }
