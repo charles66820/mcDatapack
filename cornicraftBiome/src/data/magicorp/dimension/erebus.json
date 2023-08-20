@@ -8,361 +8,361 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
+          "biome": "magicorp:mordor",
           "parameters": {
-            "erosion": [
-              -1.0,
-              1.0
-            ],
-            "depth": 0.0,
-            "weirdness": [
-              -1.0,
-              1.0
-            ],
-            "offset": 0.0,
             "temperature": [
-              -1.0,
+              -1,
               0.25
             ],
             "humidity": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
             "continentalness": [
               -0.3,
-              1.0
-            ]
-          },
-          "biome": "magicorp:mordor"
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
+          "biome": "magicorp:mordor",
           "parameters": {
-            "erosion": [
-              -1.0,
-              1.0
-            ],
-            "depth": 1.0,
-            "weirdness": [
-              -1.0,
-              1.0
-            ],
-            "offset": 0.0,
             "temperature": [
-              -1.0,
+              -1,
               0.25
             ],
             "humidity": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
             "continentalness": [
               -0.3,
-              1.0
-            ]
-          },
-          "biome": "magicorp:mordor"
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 1,
+            "offset": 0
+          }
         },
         {
+          "biome": "magicorp:dead_forest",
           "parameters": {
-            "erosion": [
-              -1.0,
-              1.0
-            ],
-            "depth": 0.0,
-            "weirdness": [
-              -1.0,
-              1.0
-            ],
-            "offset": 0.0,
             "temperature": [
               0.25,
               0.5
             ],
             "humidity": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
             "continentalness": [
               -0.3,
-              1.0
-            ]
-          },
-          "biome": "magicorp:dead_forest"
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
+          "biome": "magicorp:dead_forest",
           "parameters": {
-            "erosion": [
-              -1.0,
-              1.0
-            ],
-            "depth": 1.0,
-            "weirdness": [
-              -1.0,
-              1.0
-            ],
-            "offset": 0.0,
             "temperature": [
               0.25,
               0.5
             ],
             "humidity": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
             "continentalness": [
               -0.3,
-              1.0
-            ]
-          },
-          "biome": "magicorp:dead_forest"
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 1,
+            "offset": 0
+          }
         },
         {
+          "biome": "minecraft:desert",
           "parameters": {
-            "erosion": [
-              -1.0,
-              1.0
-            ],
-            "depth": 0.0,
-            "weirdness": [
-              -1.0,
-              1.0
-            ],
-            "offset": 0.0,
             "temperature": [
               0.5,
-              1.0
+              1
             ],
             "humidity": [
-              0.0,
-              1.0
+              0,
+              1
             ],
             "continentalness": [
               -0.3,
-              1.0
-            ]
-          },
-          "biome": "minecraft:desert"
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
+          "biome": "minecraft:desert",
           "parameters": {
-            "erosion": [
-              -1.0,
-              1.0
-            ],
-            "depth": 1.0,
-            "weirdness": [
-              -1.0,
-              1.0
-            ],
-            "offset": 0.0,
             "temperature": [
               0.5,
-              1.0
+              1
             ],
             "humidity": [
-              0.0,
-              1.0
+              0,
+              1
             ],
             "continentalness": [
               -0.3,
-              1.0
-            ]
-          },
-          "biome": "minecraft:desert"
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 1,
+            "offset": 0
+          }
         },
         {
+          "biome": "minecraft:badlands",
           "parameters": {
-            "erosion": [
-              -1.0,
-              1.0
-            ],
-            "depth": 0.0,
-            "weirdness": [
-              -1.0,
-              1.0
-            ],
-            "offset": 0.0,
             "temperature": [
               0.5,
-              1.0
+              1
             ],
             "humidity": [
-              -1.0,
-              0.0
+              -1,
+              0
             ],
             "continentalness": [
               -0.3,
-              1.0
-            ]
-          },
-          "biome": "minecraft:badlands"
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
+          "biome": "minecraft:badlands",
           "parameters": {
-            "erosion": [
-              -1.0,
-              1.0
-            ],
-            "depth": 1.0,
-            "weirdness": [
-              -1.0,
-              1.0
-            ],
-            "offset": 0.0,
             "temperature": [
               0.5,
-              1.0
+              1
             ],
             "humidity": [
-              -1.0,
-              0.0
+              -1,
+              0
             ],
             "continentalness": [
               -0.3,
-              1.0
-            ]
-          },
-          "biome": "minecraft:badlands"
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 1,
+            "offset": 0
+          }
         },
         {
+          "biome": "magicorp:ocean",
           "parameters": {
-            "erosion": [
-              -1.0,
-              1.0
-            ],
-            "depth": 0.0,
-            "weirdness": [
-              -1.0,
-              1.0
-            ],
-            "offset": 0.0,
             "temperature": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
             "humidity": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
             "continentalness": [
-              -1.0,
+              -1,
               -0.2
-            ]
-          },
-          "biome": "magicorp:ocean"
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 0,
+            "offset": 0
+          }
         },
         {
+          "biome": "magicorp:ocean",
           "parameters": {
-            "erosion": [
-              -1.0,
-              1.0
-            ],
-            "depth": 1.0,
-            "weirdness": [
-              -1.0,
-              1.0
-            ],
-            "offset": 0.0,
             "temperature": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
             "humidity": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
             "continentalness": [
-              -1.0,
+              -1,
               -0.2
-            ]
-          },
-          "biome": "magicorp:ocean"
-        },
-        {
-          "parameters": {
-            "erosion": [
-              -1.0,
-              1.0
             ],
-            "depth": [
-              0.2,
-              0.9
+            "erosion": [
+              -1,
+              1
             ],
             "weirdness": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
-            "offset": 0.0,
+            "depth": 1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:dripstone_caves",
+          "parameters": {
             "temperature": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
             "humidity": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
             "continentalness": [
               0.8,
-              1.0
-            ]
-          },
-          "biome": "minecraft:dripstone_caves"
-        },
-        {
-          "parameters": {
+              1
+            ],
             "erosion": [
-              -1.0,
-              1.0
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
             ],
             "depth": [
               0.2,
               0.9
             ],
-            "weirdness": [
-              -1.0,
-              1.0
-            ],
-            "offset": 0.0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:lush_caves",
+          "parameters": {
             "temperature": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
             "humidity": [
               0.7,
-              1.0
+              1
             ],
             "continentalness": [
-              -1.0,
-              1.0
-            ]
-          },
-          "biome": "minecraft:lush_caves"
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          }
         },
         {
+          "biome": "minecraft:deep_dark",
           "parameters": {
-            "erosion": [
-              -1.0,
-              -0.375
-            ],
-            "depth": 1.1,
-            "weirdness": [
-              -1.0,
-              1.0
-            ],
-            "offset": 0.0,
             "temperature": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
             "humidity": [
-              -1.0,
-              1.0
+              -1,
+              1
             ],
             "continentalness": [
-              -1.0,
-              1.0
-            ]
-          },
-          "biome": "minecraft:deep_dark"
+              -1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.375
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "depth": 1.1,
+            "offset": 0
+          }
         }
       ]
     }

@@ -5,3 +5,5 @@ scoreboard objectives add life health
 scoreboard objectives setdisplay list life
 
 gamerule playersSleepingPercentage 50
+
+#worldborder set 15000
