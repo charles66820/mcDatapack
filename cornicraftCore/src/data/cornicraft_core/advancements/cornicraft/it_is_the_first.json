@@ -3,7 +3,7 @@
     "icon": {
       "item": "minecraft:skeleton_skull"
     },
-    "title": "Il y a un debût a tous...",
+    "title": "Il y a un debût a tout...",
     "description": "Mourir pour la premiere fois",
     "show_toast": true,
     "announce_to_chat": true,

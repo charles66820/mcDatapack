@@ -1,0 +1,87 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_block"
+    },
+    "title": "Diamond block on Gold block",
+    "description": "Mettre un block de diamand sur un bloque d'or",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "cornicraft_core:cornicraft/root",
+  "criteria": {
+    "d_on_g": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetY": 0,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:diamond_block"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetY": -1,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:gold_block"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetY": 0,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:gold_block"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:location_check",
+                    "offsetY": 1,
+                    "predicate": {
+                      "block": {
+                        "blocks": [
+                          "minecraft:diamond_block"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "d_on_g"
+    ]
+  ]
+}

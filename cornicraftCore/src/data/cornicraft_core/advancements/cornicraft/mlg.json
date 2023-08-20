@@ -17,16 +17,22 @@
       "conditions": {
         "player": [
           {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 0,
+            "predicate": {
+              "fluid": {
+                "tag": "minecraft:water"
+              }
+            }
+          },
+          {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
               "type": "minecraft:player",
-              "nbt": "{SelectedItem:{id:\"minecraft:bucket\"}}",
-              "location": {
-                "fluid": {
-                  "tag": "minecraft:water"
-                }
-              }
+              "nbt": "{SelectedItem:{id:\"minecraft:bucket\"}}"
             }
           }
         ],
