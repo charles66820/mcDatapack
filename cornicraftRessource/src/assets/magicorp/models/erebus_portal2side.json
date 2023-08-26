@@ -1,7 +1,7 @@
 {
 	"textures": {
-		"0": "magicorp:erebus_portal",
-		"particle": "magicorp:erebus_portal"
+		"0": "magicorp:item/erebus_portal",
+		"particle": "magicorp:item/erebus_portal"
 	},
 	"elements": [
 		{

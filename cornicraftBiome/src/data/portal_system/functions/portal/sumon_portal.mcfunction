@@ -9,4 +9,6 @@ summon minecraft:snowball ~ ~ ~ {Tags:["erebus"],Invulnerable:1b,Motion:[0.0,0.0
 # link ghost and portal entity
 tp @e[type=minecraft:snowball,tag=erebus,distance=..2,sort=nearest,limit=1] @e[type=minecraft:glow_item_frame,tag=portal,distance=..2,sort=nearest,limit=1]
 
+# summon minecraft:item_display ~ ~ ~ {Tags:["portal", "erebus"],Invulnerable:1b,item:{id:"minecraft:flint_and_steel",Count:1b,tag:{CustomModelData:1}},billboard:"center"}
+
 execute at @e[type=minecraft:snowball,tag=erebus,distance=..2,sort=nearest,limit=1] run tp @e[type=minecraft:snowball,tag=erebus,distance=..2,sort=nearest,limit=1] ~ ~0.5 ~
