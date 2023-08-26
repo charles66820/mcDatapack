@@ -1,0 +1,17 @@
+{
+   "format_version" : "1.14.0",
+   "sound_definitions" : {
+      "mordor" : {
+         "category" : "ambient",
+         "sounds" : [
+            "sounds/mordor"
+         ]
+      },
+      "creeper_aw_man" : {
+         "category" : "ambient",
+         "sounds" : [
+            "sounds/creeper_aw_man"
+         ]
+      }
+   }
+}

@@ -8,5 +8,5 @@
     "east": "minecraft:block/red_wool",
     "south": "magicorp:block/rainbow_wool",
     "west": "minecraft:block/purple_wool"
-}
+  }
 }

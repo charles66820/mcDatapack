@@ -1,0 +1,17 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Cornicraft required ressources pack",
+        "name": "cornicraftRessourcePack",
+        "uuid": "a3485d79-dea7-44fb-bc16-5cb95d1cb505",
+        "version": [0, 0, 2],
+        "min_engine_version": [ 1, 20, 10 ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "d8c92dc1-958a-4406-a931-33d6df275779",
+            "version": [0, 0, 2]
+        }
+    ]
+}
