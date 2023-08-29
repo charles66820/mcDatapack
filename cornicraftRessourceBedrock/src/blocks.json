@@ -1,0 +1,23 @@
+{
+  "format_version": "1.19.30",
+  "geyser_custom:rainbow_wool" : {
+    "sound": "cloth",
+    "brightness_gamma": 1,
+    "textures" : {
+      "down": "rainbow_wool",
+      "up": "rainbow_wool",
+      "north": "rainbow_wool_alt",
+      "east": "red_wool",
+      "south": "rainbow_wool",
+      "west": "purple_wool"
+    },
+    "carried_textures" : {
+      "down": "rainbow_wool",
+      "up": "rainbow_wool",
+      "north": "rainbow_wool_alt",
+      "east": "red_wool",
+      "south": "rainbow_wool",
+      "west": "purple_wool"
+    }
+  }
+}

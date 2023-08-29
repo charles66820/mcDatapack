@@ -19,10 +19,7 @@
         "firstperson_lefthand": "animation.erebus_portal.firstperson_lefthand",
         "thirdperson_righthand": "animation.erebus_portal.thirdperson_righthand",
         "thirdperson_lefthand": "animation.erebus_portal.thirdperson_lefthand",
-        "ground": "animation.erebus_portal.ground",
-        "gui": "animation.erebus_portal.gui",
-        "head": "animation.erebus_portal.head",
-        "fixed": "animation.erebus_portal.fixed"
+        "head": "animation.erebus_portal.head"
       },
       "scripts": {
         "pre_animation": [
@@ -42,15 +39,6 @@
           },
           {
             "thirdperson_lefthand": "!c.is_first_person && v.is_left_hand"
-          },
-          {
-            "ground": "q.is_on_ground"
-          },
-          {
-            "gui": "q.is_in_ui"
-          },
-          {
-            "fixed": "false"
           },
           {
             "head": "!c.is_first_person && v.is_head"

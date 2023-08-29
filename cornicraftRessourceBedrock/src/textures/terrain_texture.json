@@ -1,0 +1,18 @@
+{
+  "resource_pack_name": "Cornicraft",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "rainbow_wool": {
+      "textures": [
+        "textures/blocks/rainbow_wool"
+      ]
+    },
+    "rainbow_wool_alt": {
+      "textures": [
+        "textures/blocks/rainbow_wool_alt"
+      ]
+    }
+  }
+}

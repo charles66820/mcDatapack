@@ -1,16 +1,16 @@
 {
    "resource_pack_name" : "Cornicraft",
+   "texture_name" : "atlas.items",
    "texture_data" : {
       "erebus_portal" : {
         "textures" : [
           "textures/items/erebus_portal"
         ]
       },
-      "rainbow_wool" : {
-        "textures" : [
+      "rainbow_wool": {
+        "textures": [
           "textures/blocks/rainbow_wool"
         ]
       }
-   },
-   "texture_name" : "atlas.items"
+   }
 }

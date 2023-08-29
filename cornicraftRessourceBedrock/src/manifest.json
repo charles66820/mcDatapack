@@ -1,17 +1,17 @@
 {
-    "format_version": 2,
-    "header": {
-        "description": "Cornicraft required ressources pack",
-        "name": "cornicraftRessourcePack",
-        "uuid": "393ece5f-2a0f-4ff4-91ff-3ea02ce2e5f0",
-        "version": [0, 0, 2],
-        "min_engine_version": [ 1, 20, 10 ]
-    },
-    "modules": [
-        {
-            "type": "resources",
-            "uuid": "096a06d7-3a29-41bd-95e7-6685b7d2bb05",
-            "version": [0, 0, 2]
-        }
-    ]
+  "format_version": 2,
+  "header": {
+    "description": "Cornicraft required ressources pack",
+    "name": "cornicraftRessourcePack",
+    "uuid": "393ece5f-2a0f-4ff4-91ff-3ea02ce2e5f0",
+    "version": [0, 0, 4],
+    "min_engine_version": [ 1, 20, 10 ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "096a06d7-3a29-41bd-95e7-6685b7d2bb05",
+      "version": [0, 0, 4]
+    }
+  ]
 }
