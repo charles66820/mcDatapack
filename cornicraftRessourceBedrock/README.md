@@ -57,3 +57,11 @@
   ]
 },
 ```
+
+## TODO
+
+* fix wrong display animations position
+* fix on ground 3d item
+* fix on item frame 3d item
+* fix in gui 3d item
+* fix rainbow wool item
