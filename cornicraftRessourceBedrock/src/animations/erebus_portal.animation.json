@@ -1,0 +1,93 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.erebus_portal.firstperson_righthand": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": [-20, -60, 20],
+					"position": [0, 10, -8],
+					"scale": 1
+				}
+			}
+		},
+		"animation.erebus_portal.firstperson_lefthand": {
+			"loop": true,
+			"animation_length": 1.625,
+			"bones": {
+				"rightItem": {
+					"rotation": [-32, 16, -370],
+					"position": [12, 20, -36]
+				}
+			}
+		},
+		"animation.erebus_portal.thirdperson_righthand": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": [-94, 4, 110],
+					"position": [6, 12, -24],
+					"scale": 1
+				}
+			}
+		},
+		"animation.erebus_portal.thirdperson_lefthand": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": [-96, 0, 72],
+					"position": [24, 12, -24]
+				}
+			}
+		},
+		"animation.erebus_portal.ground": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": [0, 90, 0],
+					"position": [0, 3, 0],
+					"scale": 1
+				}
+			}
+		},
+		"animation.erebus_portal.gui": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": [0, 90, 0],
+					"position": [0, -3.5, 0],
+					"scale": [1, 0.5, 1]
+				}
+			}
+		},
+		"animation.erebus_portal.head": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": [0, 90, 0],
+					"position": [0, -6.5, 0],
+					"scale": [1.25, 1.25, 1.75]
+				}
+			}
+		},
+		"animation.erebus_portal.fixed": {
+			"loop": true,
+			"bones": {
+				"rightItem": {
+					"rotation": [-90, 0, 0],
+					"position": [0, 0, 48],
+					"scale": 2
+				}
+			}
+		},
+    "animation.item.first_person": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "position": [ 0, 0, 0 ],
+          "rotation": [ 55, 0, 45 ]
+        }
+      }
+    }
+	}
+}
