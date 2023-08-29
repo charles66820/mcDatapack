@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "erebus_portal",
+      "identifier": "geyser_custom:erebus_portal",
       "materials": {
         "default": "entity_alphatest",
         "enchanted": "entity_alphatest_glint"
@@ -26,9 +26,9 @@
       },
       "scripts": {
         "pre_animation": [
-          "v.is_right_hand = c.item_slot == 'main_hand' && query.is_item_name_any('slot.weapon.mainhand', 0, 'erebus_portal');",
-          "v.is_left_hand = c.item_slot == 'off_hand' && query.is_item_name_any('slot.weapon.offhand', 0, 'erebus_portal');",
-          "v.is_head = c.item_slot == 'head' && query.is_item_name_any('slot.armor.head', 0, 'erebus_portal');"
+          "v.is_right_hand = c.item_slot == 'main_hand' && query.is_item_name_any('slot.weapon.mainhand', 0, 'geyser_custom:erebus_portal');",
+          "v.is_left_hand = c.item_slot == 'off_hand' && query.is_item_name_any('slot.weapon.offhand', 0, 'geyser_custom:erebus_portal');",
+          "v.is_head = c.item_slot == 'head' && query.is_item_name_any('slot.armor.head', 0, 'geyser_custom:erebus_portal');"
         ],
         "animate": [
           {
