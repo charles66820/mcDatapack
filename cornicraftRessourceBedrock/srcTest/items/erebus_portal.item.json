@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "geyser_custom:erebus_portal",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:icon": "erebus_portal",
+      "minecraft:render_offsets":{
+        "main_hand": [0,0,0],
+        "off_hand":[0,0.5,0]
+      },
+      "minecraft:hover_text_color": "light_purple"
+    }
+  }
+}
