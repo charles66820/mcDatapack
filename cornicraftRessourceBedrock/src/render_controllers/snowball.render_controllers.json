@@ -1,0 +1,19 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.snowball": {
+      "arrays": {
+        "geometries": {
+          "Array.geo": [
+            "geometry.default",
+            "geometry.erebus"
+          ]
+        }
+      },
+      "geometry": "Array.geo[query.is_on_fire ? 1 : 0]",
+      "materials": [ { "*": "material.default" } ],
+      "textures": [ "query.is_on_fire ? texture.erebus : texture.default" ],
+      "filter_lighting": true
+    }
+  }
+}

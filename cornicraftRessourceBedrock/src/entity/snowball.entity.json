@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:snowball",
+      "materials": {
+        "default": "snowball"
+      },
+      "textures": {
+        "default": "textures/items/snowball",
+        "erebus": "textures/items/erebus_portal"
+      },
+      "geometry": {
+        "default": "geometry.item_sprite",
+        "erebus": "geometry.erebus_portal"
+      },
+      "render_controllers": [ "controller.render.snowball" ],
+      "animations": {
+        "flying": "animation.actor.billboard",
+        "look_at_camera": "animation.erebus_portal.look_at_target2"
+      },
+      "scripts": {
+        "animate": [
+          {
+            "flying": "!query.is_on_fire"
+          },
+          {
+            "look_at_camera": "query.is_on_fire"
+
+          }
+        ]
+      }
+    }
+  }
+}

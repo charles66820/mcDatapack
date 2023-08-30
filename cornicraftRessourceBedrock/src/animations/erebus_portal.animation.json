@@ -88,6 +88,36 @@
           "rotation": [ 55, 0, 45 ]
         }
       }
+    },
+    "animation.erebus_portal.look_at_target1": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "relative_to": {
+            "rotation": "entity"
+          },
+          "rotation": ["query.target_x_rotation - this", "query.target_y_rotation - this", 0.0]
+        }
+      }
+    },
+    "animation.erebus_portal.look_at_target2": {
+      "loop": true,
+      "bones": {
+        "rightitem": {
+          "rotation": ["query.camera_rotation(0) - this", "query.camera_rotation(1) - this", 0.0]
+        }
+      }
+    },
+    "animation.erebus_portal.look_at_target3": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "relative_to": {
+            "rotation": "entity"
+          },
+          "rotation": ["this - query.rotation_to_camera(0)", "this - query.rotation_to_camera(1)", 0.0]
+        }
+      }
     }
 	}
 }

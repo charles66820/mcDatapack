@@ -1,9 +1,0 @@
-{
-   "resource_pack_name" : "vanilla",
-   "texture_data" : {
-      "snowball" : {
-         "textures" : "textures/items/snowball"
-      }
-   },
-   "texture_name" : "atlas.items"
-}
