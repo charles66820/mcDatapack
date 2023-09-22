@@ -4,7 +4,7 @@ execute at @e[type=minecraft:glow_item_frame,tag=target_portal,limit=1] run summ
 data modify entity @e[type=minecraft:area_effect_cloud,tag=portal_checker,limit=1] Tags append from entity @e[type=minecraft:glow_item_frame,tag=target_portal,limit=1] Tags[]
 tag @e remove target_portal
 
-# teleporte portal_checker to destination
+# teleport portal_checker to destination
 execute as @e[type=minecraft:area_effect_cloud,tag=portal_checker,limit=1] at @s in overworld run tp @s ~ ~ ~
 
 # find destination portal

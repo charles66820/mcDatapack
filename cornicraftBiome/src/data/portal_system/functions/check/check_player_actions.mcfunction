@@ -17,6 +17,6 @@ execute if score @s countdown matches 1..2 at @s run function portal_system:port
 execute if score @s countdown matches 1.. run scoreboard players reset @s[tag=!in_portal] countdown
 
 
-# when players countdown permite the portal teleportation
+# when players countdown allow the portal teleportation
 execute if score @s countdown matches 80..100 at @s run function portal_system:portal/warp
 tag @s remove in_portal
