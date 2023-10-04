@@ -11,6 +11,8 @@
 
 ### Commands
 
+* `summon minecraft:snowball ~ ~ ~ {Fire:10000,Motion:[0.0,0.0,0.0],NoGravity:1b}`
+
 ### Debug animations
 
 ```json
