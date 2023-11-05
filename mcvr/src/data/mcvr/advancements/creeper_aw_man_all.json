@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": "Aww man !",
+    "description": "Creeper !?",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "creeper_aww_man": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creeper"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "creeper_aww_man"
+    ]
+  ],
+  "rewards": {
+    "function": "mcvr:creeper_aw_man"
+  }
+}

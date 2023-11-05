@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cactus"
+    },
+    "title": "Cornicraft",
+    "description": "All Cornicraft advancements",
+    "background": "minecraft:textures/block/amethyst_block.png",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "first_connection": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": 0,
+            "range": 0
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "first_connection"
+    ]
+  ]
+}

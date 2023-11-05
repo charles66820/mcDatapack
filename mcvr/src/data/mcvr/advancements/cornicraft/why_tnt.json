@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tnt"
+    },
+    "title": "P-Pourquoi vous avez ca?",
+    "description": "Fabriquez une TNT",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "mcvr:cornicraft/root",
+  "criteria": {
+    "Obtain_a_TNT": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:tnt"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Obtain_a_TNT"
+    ]
+  ]
+}
