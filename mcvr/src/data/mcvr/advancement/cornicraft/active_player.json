@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:clock"
+      "id": "minecraft:clock"
     },
     "title": "Un membre actif !",
     "description": "Restez sur le serveur pendant 10 heures",
